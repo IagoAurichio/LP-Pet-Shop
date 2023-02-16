@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #29568d;
+  background-image: url(./images/background-orange.svg);
+  background-repeat: no-repeat;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.form input {
+  width: 500px;
+  height: 50px;
+  border-radius: 40px;
+  font-size: 18px;
+  padding-left: 10px;
+  outline: none;
+  border: none;
+  border: 2px solid #fdc800;
+}
+@media screen and (max-width: 792px) {
+  .form button {
+    margin-top: 15px;
+  }
+}
+
+.form button {
+  width: 240px;
+  height: 50px;
+  border-radius: 30px;
+  margin-left: 40px;
+  background-color: #29568d;
+  color: #fdc800;
+  font-size: 20px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #1a3659;
+}
+
+.title {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.title h1 {
+  color: #29568d;
+  font-family: "Nunito", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.title p {
+  color: white;
+  padding: 10px;
+  font-family: "Open Sans", sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  text-align: center;
+  align-items: center;
+  gap: 70px;
+  flex-wrap: wrap;
+}
+
+.food {
+  width: 385px;
+  height: 270px;
+  margin-top: 50px;
+  border: 3px solid black;
+  border-radius: 10px;
+  background-color: #29568d;
+  padding: 10px;
+}
+.food:hover {
+  transform: scale(1.1);
+  transition: 500ms linear;
+  background-color: #1a3659;
+}
+
+.food h3 {
+  font-family: "Nunito", sans-serif;
+  margin-bottom: 23px;
+  font-size: 25px;
+  font-weight: 700;
+}
+.food p {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-weight: 600;
+}
+
+.bath {
+  width: 385px;
+  height: 270px;
+  margin-top: 50px;
+  border: 3px solid black;
+  border-radius: 10px;
+  background-color: #29568d;
+  padding: 10px;
+}
+.bath:hover {
+  transform: scale(1.1);
+  transition: 500ms linear;
+  background-color: #1a3659;
+}
+
+.bath h3 {
+  font-family: "Nunito", sans-serif;
+  margin-bottom: 12px;
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+.bath p {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-weight: 600;
+}
+
+.veterinarian {
+  width: 385px;
+  height: 270px;
+  margin-top: 50px;
+  border: 3px solid black;
+  border-radius: 10px;
+  background-color: #29568d;
+  padding: 10px;
+}
+
+.veterinarian h3 {
+  font-family: "Nunito", sans-serif;
+  margin-bottom: 12px;
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.veterinarian p {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-weight: 600;
+}
+
+.veterinarian:hover {
+  transform: scale(1.1);
+  transition: 500ms linear;
+  background-color: #1a3659;
+}
+
+.arara {
+  position: absolute;
+  margin-left: 250px;
+  margin-top: -200px;
+}
+
+.icon-whatsapp {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+.icon-whatsapp:hover {
+  transform: scale(1.3);
+  transition: 500ms linear;
+}
+
+.wpp {
+  float: right;
+}
